@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
 }
 body{
     background-color: green;
@@ -15,7 +16,7 @@ nav{
 
 .btn{
     background-color: transparent;
-    width: 130px;
+    width: 160px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -31,4 +32,162 @@ nav{
 }
 .vert { 
     border-right: 4px solid green; 
+}
+
+
+/* main page css */
+
+.child{
+    margin: 90px;
+    display: flex;
+    
+}
+
+
+.mainimage{
+    width: 30%;
+    
+}
+
+.maintextpart{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.maintextpart>h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.maintextpart>p{
+    font-size: 30px;
+}
+
+.mainimage>h3{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+/* menue page styling */
+
+/* Menu Section Styling */
+.menu {
+    padding: 20px;
+    background-color: rgb(14, 151, 14);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 90px auto;
+}
+
+.menu-header {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(1, 107, 1);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.item-name {
+    font-size: 1.1rem;
+}
+
+.item-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+/* Contact Us page styling */
+
+
+/* Contact Us Section Styling */
+.contact {
+    padding: 20px;
+    background-color: rgb(14, 151, 14);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 90px auto;
+}
+
+.contact-header {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(1, 107, 1);
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: green;
+    color: white;
+}
+
+.contact-form button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 150px;
 }
